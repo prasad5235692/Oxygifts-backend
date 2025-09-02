@@ -30,40 +30,29 @@ async function seed() {
           {
             key: "succulent",
             name: "Succulent",
+            rating: 4.7,
+        reviews: 220,
             image: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744212/products/e2zlbchhtlftlw7qzhej.jpg",
           },
           {
             key: "jade",
             name: "Jade Plant",
+            rating: 4.2,
+        reviews: 160,
             image: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744401/products/vs9baq25pmesod7jbcjc.jpg",
           },
           {
             key: "echeveria",
             name: "Echeveria",
+            rating: 4,
+        reviews: 120,
             image: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744617/products/oj9ukcutuusxavvc4fmn.jpg",
           },
         ],
 
         // 🎀 Each ribbon color has plant-specific images
         ribbonOptions: [
-          {
-            name: "Red",
-            code: "#E63946",
-            images: {
-              succulent: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744212/products/e2zlbchhtlftlw7qzhej.jpg",
-              jade: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744401/products/vs9baq25pmesod7jbcjc.jpg",
-              echeveria: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744617/products/oj9ukcutuusxavvc4fmn.jpg",
-            },
-          },
-          {
-            name: "Pink",
-            code: "#FF69B4",
-            images: {
-        
-              echeveria: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744660/products/rjpgablh6ij1gzcs2zig.jpg",
-            },
-          },
-          {
+           {
             name: "White",
             code: "#FFFFFF",
             images: {
@@ -71,11 +60,29 @@ async function seed() {
     
             },
           },
+        
+          {
+            name: "Pink",
+            code: "#FF69B4",
+            images: {
+              succulent: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744212/products/e2zlbchhtlftlw7qzhej.jpg",
+              echeveria: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744660/products/rjpgablh6ij1gzcs2zig.jpg",
+            },
+          },
+         
           {
             name: "blue",
             code: "#5014f4ff",
             images: {
+              jade: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756831666/xm2nphbznsozjrpt86ns.jpg",
+            },
+          },
+            {
+            name: "Red",
+            code: "#E63946",
+            images: {
               jade: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744401/products/vs9baq25pmesod7jbcjc.jpg",
+              echeveria: "https://res.cloudinary.com/dnqjvt7yb/image/upload/v1756744617/products/oj9ukcutuusxavvc4fmn.jpg",
             },
           },
         ],
